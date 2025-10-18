@@ -1,6 +1,6 @@
 {
-  "name": "Tamagotchi",
-  "short_name": "Tamagotchi",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
       "src": "/www/img/web-app-manifest-192x192.png",

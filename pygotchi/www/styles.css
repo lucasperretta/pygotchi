@@ -87,8 +87,8 @@ body {
 .screen-container {
     position: relative; /* Ensures absolute positioning works inside */
     display: inline-block; /* Prevents unnecessary stretching */
-    height: 320px;
-    width: 320px;
+    height: 350px;
+    width: 350px;
 }
 
 #main-image {
