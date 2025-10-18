@@ -43,10 +43,11 @@ body {
 .sidebar {
   position: fixed;
   top: 0;
-  right: -300px;
-  width: 275px;
+  right: -600px;
+  width: 500px;
+  max-width: 100vw;
   height: 100%;
-  background-color: #333;
+  background-color: #222;
   color: white;
   transition: right 0.4s ease-in-out;
   padding: 20px;
@@ -293,7 +294,7 @@ input:checked + .slider:before {
 
 /* Upload Button */
 .up-down {
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
     padding: 12px 20px;
     border: none;
@@ -302,7 +303,7 @@ input:checked + .slider:before {
     display: flex;
     align-items: center;
     gap: 10px; /* Space between icon and text */
-    font-weight: 600;
+    font-weight: 500;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
     background: dimgray;
     color: white;
@@ -327,7 +328,7 @@ input#carebot {
 label[for="carebot"] {
     display: inline-flex;
     align-items: center; 
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
   }
 
@@ -336,8 +337,8 @@ label[for="carebot"]::before {
     font-family: "Font Awesome 7 Free";
     font-weight: 400;
     margin-right: 0.3em;
-    color: hsl(342, 100%, 63%);
-    font-size: 32px;
+    color: #ff327c;
+    font-size: 22px;
 }
 
 input#carebot:checked + label[for="carebot"]::before {
